@@ -26,6 +26,7 @@
    -  启动配置更灵活：EFI启动可以调用EFIShell，选择启动文件
    -  支持容量更大：支持2TB以上硬盘
 -  理解rcore中的Berkeley BootLoader (BBL)的功能。
+   -  作为BootLoader的第一部分，先进行一些与RISC-V相关的预操作以方便后面的Linux处理
 
 ## 3.2 系统启动流程
 
